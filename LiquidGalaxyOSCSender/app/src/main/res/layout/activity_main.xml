@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_marginTop="80sp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/button14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bangkok"
+        android:onClick="Bangkok"
+        android:textSize="30sp"/>
+
+    <Button
+        android:layout_margin="10sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button14"
+        android:id="@+id/button15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="London"
+        android:onClick="London"
+        android:textSize="30sp"/>
+
+    <Button
+        android:layout_margin="10sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button15"
+        android:id="@+id/button16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paris"
+        android:onClick="Paris"
+        android:textSize="30sp"/>
+
+    <Button
+        android:layout_margin="10sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button16"
+        android:id="@+id/button17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dubai"
+        android:onClick="Dubai"
+        android:textSize="30sp" />
+
+    <Button
+        android:layout_margin="10sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button17"
+        android:id="@+id/button18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tokyo"
+        android:onClick="Tokyo"
+        android:textSize="30sp"/>
+</RelativeLayout>
